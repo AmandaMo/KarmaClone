@@ -46,3 +46,59 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+.navigation{
+	background-color: white;
+	padding: 1em 1em;
+	height: 2.5em;
+}
+.logo{
+	height: 2.5em;
+	width:2.5em;
+	padding-left: 6em;
+	display: inline block;
+	float: left;
+}
+.nav-bar{
+	float: right;
+	list-style-type: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	padding-right: 6em;
+	display: inline block;
+	line-height: 2.5em;
+	font-size: 1.05em;
+}
+
+li{
+	display: inline;
+	padding-right: 1.5em;
+}
+
+a:link {
+    color: #919191;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #919191;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: #1A1A1A;
+    font-weight: Strong;
+    text-decoration: none;
+}
