@@ -58,38 +58,41 @@ div {
     border: 1px solid Chocolate;
 }
 
-
+/*My code starts here*/
 .content{
 	padding: 0 15px;
+	font-family: 'Roboto', sans-serif; 
+	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation{
 	background-color: #fff;
 }
 
-.top-navigation>.content{
-	width:970px;
+.top-navigation .content{
+	max-width:970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0 100px;
 }
 
-.top-navgation .logo{ 
+.top-navigation .logo{ 
 	height: 70px;
 }
 
-.top-naviagtion .links{ 
-	float: right;
+.top-navigation .links{ 
 	font-family: 'Roboto', sans-serif; 
 	font-size: 16px;
 	letter-spacing: 0.03em;
 	color: #838994;
-	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
+	float: right;
+
 }
 
 .top-navigation .links li{ 
-    display: inline-block;
+	display: inline-block;
     margin-left: 25px;
+    margin-top: 22px;
 }
 
 .top-navigation .links li:hover{ 
@@ -99,5 +102,55 @@ div {
 
 .top-navigation .links .active{
     color: #4c5058;
-    font-weight: 500;
+    font-weight: bolder;
+}
+
+.Intro{
+	height: 650px;
+	background-image: url("file://C:/Users/MO/Documents/Front End Web Development Projects/Unit 1/Lesson 4/startup-landing-page-clone/images/first-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Intro>.content{
+	text-align: center;
+	color: white;
+	padding-top: 210px;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.content h1 {
+	font-size: 48px;
+	font-weight: 300px;
+	padding-bottom: 20px;
+	letter-spacing: .05em;
+}
+
+.content h2 {
+	font-size: 24px;
+	font-weight: 300px;
+	letter-spacing: .05em;
+}
+
+button{
+	text-align: center;
+   	background: #f0540c;
+	padding: 14.5px 29px;
+   	border-radius: 5px;
+   	color: white;
+    font-family: 'Roboto', sans-serif; 
+	font-size: 18px;
+	font-weight: 500px;
+   	text-decoration: none;
+   	vertical-align: middle;
+   	position: relative;
+   	left: 44%;
+   	border: none;
+}
+.button{
+	padding-top: 20px;
+	max-width: 970px;
+	margin: 0 auto;
 }
