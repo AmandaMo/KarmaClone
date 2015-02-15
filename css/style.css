@@ -1,4 +1,4 @@
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
 
 html {
   box-sizing: border-box;
@@ -59,10 +59,15 @@ div {
 }
 
 /*My code starts here*/
-.content{
-	padding: 0 15px;
+body{
 	font-family: 'Roboto', sans-serif; 
 	-webkit-font-smoothing: antialiased;
+	color: white;
+}
+
+.content{
+	padding: 0 15px;
+	text-align: center;
 }
 
 .top-navigation{
@@ -73,11 +78,12 @@ div {
 	max-width:970px;
 	height: 70px;
 	margin: 0 auto;
-	padding: 0 100px;
+	padding: 0 115px;
 }
 
 .top-navigation .logo{ 
 	height: 70px;
+	float: left;
 }
 
 .top-navigation .links{ 
@@ -86,13 +92,12 @@ div {
 	letter-spacing: 0.03em;
 	color: #838994;
 	float: right;
-
+	margin-top: 26px;
 }
 
 .top-navigation .links li{ 
 	display: inline-block;
     margin-left: 25px;
-    margin-top: 22px;
 }
 
 .top-navigation .links li:hover{ 
@@ -105,17 +110,17 @@ div {
     font-weight: bolder;
 }
 
-.Intro{
-	height: 650px;
+.intro{
+	height: 600px;
 	background-image: url("file://C:/Users/MO/Documents/Front End Web Development Projects/Unit 1/Lesson 4/startup-landing-page-clone/images/first-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center bottom;
+	height: 598px;
+	overflow: auto;
 }
 
-.Intro>.content{
-	text-align: center;
-	color: white;
+.intro>.content{
 	padding-top: 210px;
 	max-width: 970px;
 	margin: 0 auto;
@@ -123,34 +128,40 @@ div {
 
 .content h1 {
 	font-size: 48px;
-	font-weight: 300px;
+	font-weight: 300;
 	padding-bottom: 20px;
 	letter-spacing: .05em;
 }
 
-.content h2 {
+.content h3 {
 	font-size: 24px;
-	font-weight: 300px;
+	font-weight: 300;
 	letter-spacing: .05em;
 }
 
-button{
+.big-button button{
+	display: block;
+	margin:0 auto;
 	text-align: center;
-   	background: #f0540c;
-	padding: 14.5px 29px;
-   	border-radius: 5px;
-   	color: white;
-    font-family: 'Roboto', sans-serif; 
+   	background: #f4511e;
+	padding: 16px 26px;
+   	border-radius: 4px;
 	font-size: 18px;
 	font-weight: 500px;
+	line-height: 1.33;
+	text-shadow:none;
    	text-decoration: none;
    	vertical-align: middle;
-   	position: relative;
-   	left: 44%;
    	border: none;
+   	color: white;
 }
-.button{
+.big-button{
 	padding-top: 20px;
 	max-width: 970px;
 	margin: 0 auto;
+}
+
+.big-button button:hover {
+	cursor: pointer;
+   	background: #db481b;
 }
