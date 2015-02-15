@@ -1,7 +1,11 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -53,52 +57,47 @@ body {
 div {
     border: 1px solid Chocolate;
 }
-.navigation{
-	background-color: white;
-	padding: 1em 1em;
-	height: 2.5em;
+
+
+.content{
+	padding: 0 15px;
 }
-.logo{
-	height: 2.5em;
-	width:2.5em;
-	padding-left: 6em;
-	display: inline block;
-	float: left;
+
+.top-navigation{
+	background-color: #fff;
 }
-.nav-bar{
+
+.top-navigation>.content{
+	width:970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.top-navgation .logo{ 
+	height: 70px;
+}
+
+.top-naviagtion .links{ 
 	float: right;
-	list-style-type: none;
-	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-	padding-right: 6em;
-	display: inline block;
-	line-height: 2.5em;
-	font-size: 1.05em;
+	font-family: 'Roboto', sans-serif; 
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	color: #838994;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
 }
 
-li{
-	display: inline;
-	padding-right: 1.5em;
+.top-navigation .links li{ 
+    display: inline-block;
+    margin-left: 25px;
 }
 
-a:link {
-    color: #919191;
-    text-decoration: none;
+.top-navigation .links li:hover{ 
+    color: #333333;
+    cursor: pointer;
 }
 
-a:visited {
-    color: #919191;
-    text-decoration: none;
-}
-
-
-a:hover {
-    color: #1A1A1A;
-    text-decoration: none;
-}
-
-
-a:active {
-    color: #1A1A1A;
-    font-weight: Strong;
-    text-decoration: none;
+.top-navigation .links .active{
+    color: #4c5058;
+    font-weight: 500;
 }
