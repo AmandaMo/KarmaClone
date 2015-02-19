@@ -196,12 +196,13 @@ ul.flexbox {
 }
 
 ul.flexbox li {
-	padding: 0 15px;
+	width: 125px;
+	padding: 0 50px;
+	font-size: 24px;
 }
 
 ul.flexbox li img {
-	margin-top: 30px;
-	margin-bottom: 10px;
+	padding: 50px 0;
 }
 
 .line{
@@ -209,4 +210,22 @@ ul.flexbox li img {
 	border-style: solid; 
 	color: #E2E2E0;
 	width: 80%;
+}
+
+.footer{
+	padding-top: 115px;
+	padding-bottom: 150px;
+	background-color: white;
+}
+.join{
+	color: black;
+} 
+.copyright{
+	color:gray;
+	font-size: 12px;
+}
+
+.social li{
+	display: inline-block;
+	padding: 25px 15px;
 }
