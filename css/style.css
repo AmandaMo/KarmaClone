@@ -111,7 +111,7 @@ body{
 
 .intro{
 	height: 600px;
-	background-image: url("file://C:/Users/MO/Documents/Front End Web Development Projects/Unit 1/Lesson 4/startup-landing-page-clone/images/first-background.jpg");
+	background-image: url("images/first-background.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
