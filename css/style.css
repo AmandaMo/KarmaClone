@@ -52,11 +52,9 @@ table {
 body {
     background-color: LightGray;
 }
-div {
-    border: 1px solid Chocolate;
-}
 
 /*My code starts here*/
+
 body{
 	font-family: 'Roboto', sans-serif; 
 	-webkit-font-smoothing: antialiased;
